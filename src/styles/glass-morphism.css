@@ -1,0 +1,62 @@
+
+/* Glass morphism effects for dark mode */
+@layer utilities {
+  .dark .bg-white\/80 {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    backdrop-filter: blur(16px);
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .dark .bg-white\/90 {
+    background-color: rgba(255, 255, 255, 0.08) !important;
+  }
+
+  .dark .bg-white\/60 {
+    background-color: rgba(255, 255, 255, 0.03) !important;
+  }
+
+  .dark .bg-white\/70 {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+  }
+
+  .dark .border-white\/40 {
+    border-color: rgba(255, 255, 255, 0.1) !important;
+  }
+
+  .dark .border-white\/30 {
+    border-color: rgba(255, 255, 255, 0.08) !important;
+  }
+
+  /* Dark mode background gradients */
+  .dark .bg-gradient-to-br {
+    background: linear-gradient(to bottom right, 
+      rgba(30, 41, 59, 0.4), 
+      rgba(51, 65, 85, 0.4), 
+      rgba(71, 85, 105, 0.4)
+    );
+  }
+
+  .dark .from-purple-50\/40 {
+    --tw-gradient-from: rgba(139, 92, 246, 0.1) !important;
+  }
+
+  .dark .via-blue-50\/40 {
+    --tw-gradient-via: rgba(59, 130, 246, 0.1) !important;
+  }
+
+  .dark .to-cyan-50\/40 {
+    --tw-gradient-to: rgba(6, 182, 212, 0.1) !important;
+  }
+
+  .dark .from-cyan-50\/40 {
+    --tw-gradient-from: rgba(6, 182, 212, 0.1) !important;
+  }
+
+  .dark .via-purple-50\/40 {
+    --tw-gradient-via: rgba(139, 92, 246, 0.1) !important;
+  }
+
+  .dark .to-pink-50\/40 {
+    --tw-gradient-to: rgba(236, 72, 153, 0.1) !important;
+  }
+}
